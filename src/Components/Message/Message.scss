@@ -1,0 +1,43 @@
+.Message__container {
+  // width: fit-content;
+  min-height: fit-content;
+  padding: 10px;
+  span {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+    line-height: 2px;
+  }
+  .Message__description {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    .Message__Name {
+      display: block;
+      margin-right: 15px;
+    }
+    .Message__Image {
+      width: 25px;
+      height: 25px;
+      background-color: red;
+      border: 1px solid rgba(255, 0, 0, 0);
+      outline: none;
+      border-radius: 50%;
+    }
+  }
+  .Message__Desc {
+    display: block;
+    background-color: green;
+    width: fit-content;
+    min-width: 20px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    font-size: 16px;
+    height: fit-content;
+  }
+}

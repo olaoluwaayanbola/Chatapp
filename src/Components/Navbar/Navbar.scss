@@ -18,6 +18,7 @@ $hover-color: #0a0a71;
       font-size: 15px;
       cursor: pointer;
       font-weight: bold;
+      margin-right: 20px;
       border-radius: 5px;
       color: whitesmoke;
       transition: ease 0.1s;
@@ -27,11 +28,11 @@ $hover-color: #0a0a71;
       box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
     }
     button:hover {
-      font-size:16px;
+      font-size: 16px;
       transform: scale(1.03);
       background-color: $hover-color;
       border-color: $hover-color;
-    //   transform: rotate(5deg);
+      //   transform: rotate(5deg);
     }
   }
 }

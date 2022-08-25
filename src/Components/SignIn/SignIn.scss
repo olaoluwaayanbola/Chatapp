@@ -1,0 +1,29 @@
+.signin__container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(39, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sigin_M_box{
+        display: flex;
+        min-width: 35%;
+        height: 45vh;
+        padding: 25px 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(185, 184, 184);
+        .sigin__box{
+            min-width: 90%;
+            height: 70px;
+            margin-top:1px;
+            background-color: rgb(7, 15, 89);
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .sigin_M_box{
+        width: 60%;
+    }
+}
