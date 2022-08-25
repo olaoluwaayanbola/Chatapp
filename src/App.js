@@ -10,7 +10,8 @@ function App() {
       {/* {console.log(user)} */}
       {/* <SignIn/> */}
       <Navbar />
-      {auth ? <Chat /> : null}
+      <Chat />
+      {/* {auth ? <Chat /> : <Chat /> } */}
     </div>
   );
 }
