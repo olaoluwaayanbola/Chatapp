@@ -2,6 +2,7 @@ import React from 'react'
 import { auth, db } from '../../firebase/firebase'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 import { useState } from 'react'
+import "./sendmessage.scss"
 const Sendmessage = (scroll) => {
     const [send, setsend] = useState()
     const sendMessage = async (e) => {
@@ -23,7 +24,7 @@ const Sendmessage = (scroll) => {
 
     return (
         <div className="sendmessage">
-            <form onSubmit={sendMessage} action="">
+            <form onSubmit={sendMessage} action="" className="sendmessage__form">
                 <input
                     type="text"
                     placeholder='message'

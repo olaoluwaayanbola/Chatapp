@@ -32,12 +32,13 @@
   }
   .Message__Desc {
     display: block;
-    background-color: green;
-    width: fit-content;
+    background-color: rgb(40, 20, 113);
+    color: whitesmoke;
+    width: 50%;
     min-width: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 20px 15px;
-    font-size: 16px;
-    height: fit-content;
+    font-size: 17px;
+   
   }
 }

@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Message.scss"
+import { auth } from '../../firebase/firebase'
 const Message = ({ message }) => {
+    if (message.uid === auth.currentUser.uid) {
+        console.log("vow")
+    }
     return (
         <div className="Message__container">
             <div className="Message">
@@ -12,7 +16,7 @@ const Message = ({ message }) => {
                     {message.text}
                 </p>
                 <p>
-                    {/* {message.timestamp.seconds}  */}
+                    {(message.timestamp.seconds/1000) + "s"} 
                 </p>
             </div>
         </div>

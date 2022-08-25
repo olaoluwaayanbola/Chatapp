@@ -1,9 +1,17 @@
 .Chat__container {
-  max-width: 90%;
-  min-height: 84vh;
-  max-height: 84vh;
+  max-width: 80%;
+  height: 460px;
+  position: relative;
   padding: 10px;
-  background-color: grey;
-  color: whitesmoke;
+  overflow-y: auto;
+  background-color: rgba(232, 227, 227, 0.55);
+  color: rgb(8, 8, 8);
   margin: auto;
+  .ChatForm{
+    position: fixed;
+    width: 79%;
+    background-color: aqua;
+    bottom: 15px;
+    height: 6vh;
+  }
 }
