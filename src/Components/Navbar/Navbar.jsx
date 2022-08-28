@@ -5,11 +5,11 @@ import { useState } from 'react';
 import { signOut, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const Navbar = () => {
-    let [state, setState] = useState({})
+    let [state, setState] = useState(false)
     const signout = () => {
         signOut(auth).then(() => {
             console.log("you've been logged out")
-            setState(null)
+            setState(false)
         }).catch((error) => {
             console.log(error)
         });
@@ -18,7 +18,7 @@ const Navbar = () => {
         const provider = new GoogleAuthProvider();
         signInWithPopup(auth, provider)
             .then((res) => {
-                setState(res)
+                setState(true)
             })
             .catch((error) => {
                 console.log(error);

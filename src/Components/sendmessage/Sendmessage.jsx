@@ -19,9 +19,7 @@ const Sendmessage = (scroll) => {
             timestamp: serverTimestamp()
         })
         setsend('')
-        scroll.current.scrollIntoView({ behavior: 'smooth' })
     }
-
     return (
         <div className="sendmessage">
             <form onSubmit={sendMessage} action="" className="sendmessage__form">
