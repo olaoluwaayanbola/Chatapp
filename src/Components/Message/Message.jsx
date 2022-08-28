@@ -3,7 +3,6 @@ import "./Message.scss"
 import { auth } from '../../firebase/firebase'
 const Message = ({ message }) => {
     const value = message?.uid === auth.currentUser?.uid ? true : false
-    { console.log(value) }
     return (
         <div className={value ? "Messagecontainer2" : "Message__container"}>
             <div className="Message" >
