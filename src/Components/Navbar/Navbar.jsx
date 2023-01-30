@@ -14,6 +14,7 @@ const Navbar = () => {
             console.log(error)
         });
     }
+    
     const redir = () => {
         const provider = new GoogleAuthProvider();
         signInWithPopup(auth, provider)
@@ -23,8 +24,8 @@ const Navbar = () => {
             .catch((error) => {
                 console.log(error);
             })
-
     }
+    
     return (
         <div className='Navbar__container'>
             <h2>

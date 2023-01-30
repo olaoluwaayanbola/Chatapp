@@ -9,6 +9,7 @@ import "./Chat.scss"
 const Chat = () => {
     const [messages, setMessages] = useState([]);
     const scroll = useRef();
+    
     useEffect(() => {
         const q = query(collection(db, 'messages'), orderBy('timestamp'));
         const unsubscribe = onSnapshot(q, (querySnapshot) => {
@@ -20,6 +21,8 @@ const Chat = () => {
         });
         return () => unsubscribe();
     }, []);
+    
+    
     return (
         <div className="Chat__container">
             <div className="Container-Message">
