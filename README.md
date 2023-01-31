@@ -1,14 +1,16 @@
-# TodoList
+# Lightweight Messaging Platform
 
-<p> A simple to-do list web application built with TypeScript and React.</p>
+<p> 
+  A fast, secure, and user-friendly messaging platform powered by Firebase for user authentication and a seamless UI. Built with speed, security, and ease of use in     mind, this platform provides a reliable and efficient way to communicate with others.
+</p>
 
 ### `Features`
 
 <ul>
-  <li>Delete items</li>
-  <li>Add new to-do items</li>
-  <li>Mark items as completed</li>
-  <li>Clear all completed items</li>
+  <li>Firebase-powered user authentication</li>
+  <li>Seamless and user-friendly UI</li>
+  <li>Lightweight and fast performance</li>
+  <li>Secure and reliable communication</li>
 </ul>
 
 ##Getting Started
@@ -19,12 +21,12 @@
 1. Clone the repository
 ---------------------
 ```
-$ git clone https:https://github.com/olaoluwaayanbola/todotypescript
+$ git clone https://github.com/olaoluwaayanbola/chatapp
 ```
 2. Navigate to the directory:
 ---------------------
 ```
-$ cd todotypescript
+$ cd chatapp
 ```
 3. Install dependencies:
 ---------------------
