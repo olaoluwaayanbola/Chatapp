@@ -13,7 +13,7 @@
   <li>Secure and reliable communication</li>
 </ul>
 
-##Getting Started##
+##`Getting Started`
 <p>
   These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 </p>
