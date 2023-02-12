@@ -39,5 +39,5 @@ $ npm install
 $ npm start
  ```
  
-## Contribute ##
+## `Contribute` ##
 This is an open-source project and contributions are always welcome! Feel free to raise an issue or make a pull request.
